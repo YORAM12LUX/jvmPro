@@ -62,17 +62,21 @@ public class Main {
             // Afficher le résultat d'un match
             championnat.afficherTousResultatsMatchs();
 
+            System.out.println("");
+
             System.out.println("STATISTIQUES DES EQUIPES");
             System.out.println("--------------*---------------");
             // Afficher les statistiques d'une équipe
             championnat.afficherToutesStatistiquesEquipes();
+
+            System.out.println("");
 
             System.out.println("CLASSEMENT DU CHAMPIONNAT");
             System.out.println("--------------*---------------");
             // Afficher le classement du championnat
             championnat.afficherClassement();
 
-
+            System.out.println("");
 
             System.out.println("L'EQUIPE QUI A EU LE PLUS GROS SCORE");
             System.out.println("--------------*---------------");

@@ -96,14 +96,16 @@ class Championnat implements Serializable {
     }
 
     public void afficherTousResultatsMatchs() {
-        for (Journee journee : journees) {
-            for (Match match : journee.getMatches()) {
+        for (int i = 0; i < journees.length; i++) {
+            System.out.println("Résultats de la journée " + (i + 1) + ":");
+            for (Match match : journees[i].getMatches()) {
                 if (match.isJoue()) {
                     System.out.println(match.getResultat());
                 } else {
                     System.out.println("Match entre " + match.getEquipe1().getNom() + " et " + match.getEquipe2().getNom() + " non joué.");
                 }
             }
+            System.out.println(); // Ajouter une ligne vide entre chaque journée
         }
     }
     
