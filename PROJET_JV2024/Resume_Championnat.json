@@ -1,0 +1,425 @@
+{
+  "equipes": [
+    {
+      "nom": "RC Lens",
+      "points": 15,
+      "butsMarques": 16,
+      "butsEncaisses": 5,
+      "victoires": 5,
+      "defaites": 0,
+      "matchesNuls": 0
+    },
+    {
+      "nom": "Olympique de Marseille",
+      "points": 10,
+      "butsMarques": 15,
+      "butsEncaisses": 8,
+      "victoires": 3,
+      "defaites": 1,
+      "matchesNuls": 1
+    },
+    {
+      "nom": "Lille OSC",
+      "points": 7,
+      "butsMarques": 9,
+      "butsEncaisses": 6,
+      "victoires": 2,
+      "defaites": 2,
+      "matchesNuls": 1
+    },
+    {
+      "nom": "Olympique Lyonnais",
+      "points": 4,
+      "butsMarques": 9,
+      "butsEncaisses": 12,
+      "victoires": 1,
+      "defaites": 3,
+      "matchesNuls": 1
+    },
+    {
+      "nom": "FC Sochaux",
+      "points": 4,
+      "butsMarques": 9,
+      "butsEncaisses": 17,
+      "victoires": 1,
+      "defaites": 3,
+      "matchesNuls": 1
+    },
+    {
+      "nom": "Saint-Etienne",
+      "points": 3,
+      "butsMarques": 5,
+      "butsEncaisses": 15,
+      "victoires": 1,
+      "defaites": 4,
+      "matchesNuls": 0
+    }
+  ],
+  "journees": [
+    {
+      "matches": [
+        {
+          "equipe1": {
+            "nom": "Olympique Lyonnais",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 12,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Saint-Etienne",
+            "points": 3,
+            "butsMarques": 5,
+            "butsEncaisses": 15,
+            "victoires": 1,
+            "defaites": 4,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 3,
+          "scoreEquipe2": 1,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "RC Lens",
+            "points": 15,
+            "butsMarques": 16,
+            "butsEncaisses": 5,
+            "victoires": 5,
+            "defaites": 0,
+            "matchesNuls": 0
+          },
+          "equipe2": {
+            "nom": "Lille OSC",
+            "points": 7,
+            "butsMarques": 9,
+            "butsEncaisses": 6,
+            "victoires": 2,
+            "defaites": 2,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 3,
+          "scoreEquipe2": 0,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Olympique de Marseille",
+            "points": 10,
+            "butsMarques": 15,
+            "butsEncaisses": 8,
+            "victoires": 3,
+            "defaites": 1,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "FC Sochaux",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 17,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 2,
+          "scoreEquipe2": 2,
+          "jouer": true
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "equipe1": {
+            "nom": "Olympique Lyonnais",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 12,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Lille OSC",
+            "points": 7,
+            "butsMarques": 9,
+            "butsEncaisses": 6,
+            "victoires": 2,
+            "defaites": 2,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 0,
+          "scoreEquipe2": 0,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Saint-Etienne",
+            "points": 3,
+            "butsMarques": 5,
+            "butsEncaisses": 15,
+            "victoires": 1,
+            "defaites": 4,
+            "matchesNuls": 0
+          },
+          "equipe2": {
+            "nom": "FC Sochaux",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 17,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 3,
+          "scoreEquipe2": 0,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "RC Lens",
+            "points": 15,
+            "butsMarques": 16,
+            "butsEncaisses": 5,
+            "victoires": 5,
+            "defaites": 0,
+            "matchesNuls": 0
+          },
+          "equipe2": {
+            "nom": "Olympique de Marseille",
+            "points": 10,
+            "butsMarques": 15,
+            "butsEncaisses": 8,
+            "victoires": 3,
+            "defaites": 1,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 4,
+          "scoreEquipe2": 3,
+          "jouer": true
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "equipe1": {
+            "nom": "Olympique Lyonnais",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 12,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "FC Sochaux",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 17,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 4,
+          "scoreEquipe2": 5,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Lille OSC",
+            "points": 7,
+            "butsMarques": 9,
+            "butsEncaisses": 6,
+            "victoires": 2,
+            "defaites": 2,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Olympique de Marseille",
+            "points": 10,
+            "butsMarques": 15,
+            "butsEncaisses": 8,
+            "victoires": 3,
+            "defaites": 1,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 0,
+          "scoreEquipe2": 2,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Saint-Etienne",
+            "points": 3,
+            "butsMarques": 5,
+            "butsEncaisses": 15,
+            "victoires": 1,
+            "defaites": 4,
+            "matchesNuls": 0
+          },
+          "equipe2": {
+            "nom": "RC Lens",
+            "points": 15,
+            "butsMarques": 16,
+            "butsEncaisses": 5,
+            "victoires": 5,
+            "defaites": 0,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 1,
+          "scoreEquipe2": 4,
+          "jouer": true
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "equipe1": {
+            "nom": "Olympique Lyonnais",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 12,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Olympique de Marseille",
+            "points": 10,
+            "butsMarques": 15,
+            "butsEncaisses": 8,
+            "victoires": 3,
+            "defaites": 1,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 2,
+          "scoreEquipe2": 4,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "FC Sochaux",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 17,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "RC Lens",
+            "points": 15,
+            "butsMarques": 16,
+            "butsEncaisses": 5,
+            "victoires": 5,
+            "defaites": 0,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 1,
+          "scoreEquipe2": 3,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Lille OSC",
+            "points": 7,
+            "butsMarques": 9,
+            "butsEncaisses": 6,
+            "victoires": 2,
+            "defaites": 2,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Saint-Etienne",
+            "points": 3,
+            "butsMarques": 5,
+            "butsEncaisses": 15,
+            "victoires": 1,
+            "defaites": 4,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 4,
+          "scoreEquipe2": 0,
+          "jouer": true
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "equipe1": {
+            "nom": "Olympique Lyonnais",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 12,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "RC Lens",
+            "points": 15,
+            "butsMarques": 16,
+            "butsEncaisses": 5,
+            "victoires": 5,
+            "defaites": 0,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 0,
+          "scoreEquipe2": 2,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "Olympique de Marseille",
+            "points": 10,
+            "butsMarques": 15,
+            "butsEncaisses": 8,
+            "victoires": 3,
+            "defaites": 1,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Saint-Etienne",
+            "points": 3,
+            "butsMarques": 5,
+            "butsEncaisses": 15,
+            "victoires": 1,
+            "defaites": 4,
+            "matchesNuls": 0
+          },
+          "scoreEquipe1": 4,
+          "scoreEquipe2": 0,
+          "jouer": true
+        },
+        {
+          "equipe1": {
+            "nom": "FC Sochaux",
+            "points": 4,
+            "butsMarques": 9,
+            "butsEncaisses": 17,
+            "victoires": 1,
+            "defaites": 3,
+            "matchesNuls": 1
+          },
+          "equipe2": {
+            "nom": "Lille OSC",
+            "points": 7,
+            "butsMarques": 9,
+            "butsEncaisses": 6,
+            "victoires": 2,
+            "defaites": 2,
+            "matchesNuls": 1
+          },
+          "scoreEquipe1": 1,
+          "scoreEquipe2": 5,
+          "jouer": true
+        }
+      ]
+    }
+  ]
+}
