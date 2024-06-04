@@ -143,6 +143,11 @@ class Championnat implements Serializable {
             out.writeObject(this);
         }
     }
+    public static Championnat chargerEtat(String fichier) throws IOException, ClassNotFoundException {
+        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(fichier))) {
+            return (Championnat) in.readObject();
+        }
+    }
 
     public void sauvegarderEtatJson(String fichier) throws IOException {
         try (FileWriter writer = new FileWriter(fichier)) {

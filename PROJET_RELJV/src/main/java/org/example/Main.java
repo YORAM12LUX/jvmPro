@@ -96,6 +96,7 @@ public class Main {
             //Championnat chargerEtatJson = Championnat.chargerEtatJson("Resume_Championnat.json");
 
 
+
         } catch (IOException e) {
             e.printStackTrace();
         }
