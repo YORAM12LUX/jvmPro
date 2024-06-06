@@ -23,7 +23,7 @@ public class Main {
 
 
             if (nombreEquipes < 4 || nombreEquipes >10 || nombreEquipes%2 !=0) {
-                System.out.println("Il faut au moins 4 équipes pour créer un championnat et un nombre pair d'equipes qui nn'exède pas 10");
+                System.out.println("Il faut au moins 4 équipes pour créer un championnat et un nombre pair d'equipes qui n'exède pas 10");
                 return;
             }
 
