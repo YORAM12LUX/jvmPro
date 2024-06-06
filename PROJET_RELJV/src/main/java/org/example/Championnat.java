@@ -155,6 +155,47 @@ class Championnat implements Serializable {
             gson.toJson(this, writer);
         }
     }
+    public double[] calculerPourcentageVictoire() {
+        double[] pourcentages = new double[equipes.length];
+        for (int i = 0; i < equipes.length; i++) {
+            int totalMatches = equipes[i].getVictoires() + equipes[i].getDefaites() + equipes[i].getMatchesNuls();
+            if (totalMatches > 0) {
+                pourcentages[i] = (double) equipes[i].getVictoires() / totalMatches * 100;
+            } else {
+                pourcentages[i] = 0;
+            }
+            System.out.println("Le pourcentage de victoire de " + equipes[i].getNom() + " est " + pourcentages[i] + "%");
+        }
+        return pourcentages;
+    }
+
+    public double[] calculerPourcentageDefaite() {
+        double[] pourcentages = new double[equipes.length];
+        for (int i = 0; i < equipes.length; i++) {
+            int totalMatches = equipes[i].getVictoires() + equipes[i].getDefaites() + equipes[i].getMatchesNuls();
+            if (totalMatches > 0) {
+                pourcentages[i] = (double) equipes[i].getDefaites() / totalMatches * 100;
+            } else {
+                pourcentages[i] = 0;
+            }
+            System.out.println("Le pourcentage de défaite de " + equipes[i].getNom() + " est " + pourcentages[i] + "%");
+        }
+        return pourcentages;
+    }
+
+    public double[] calculerPourcentageMatchNul() {
+        double[] pourcentages = new double[equipes.length];
+        for (int i = 0; i < equipes.length; i++) {
+            int totalMatches = equipes[i].getVictoires() + equipes[i].getDefaites() + equipes[i].getMatchesNuls();
+            if (totalMatches > 0) {
+                pourcentages[i] = (double) equipes[i].getMatchesNuls() / totalMatches * 100;
+            } else {
+                pourcentages[i] = 0;
+            }
+            System.out.println("Le pourcentage de matchs nuls de " + equipes[i].getNom() + " est " + pourcentages[i] + "%");
+        }
+        return pourcentages;
+    }
 
 
 }
